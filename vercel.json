@@ -1,0 +1,17 @@
+﻿{
+  "rewrites": [
+    {
+      "source": "/subscribers/(.*)",
+      "destination": "/src/pages/SubscriberPage.jsx"
+    },
+    {
+      "source": "/subscribers/names",
+      "destination": "/src/pages/SubNamesPage.jsx"
+    },
+    {
+      "source": "/subscribers/:id",
+      "destination": "/src/pages/SingleSubscriberPage.jsx"
+    },
+    { "source": "/(.*)", "destination": "/src/pages/HomePage.jsx" }
+  ]
+}
